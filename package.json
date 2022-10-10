@@ -1,0 +1,8 @@
+{
+  "name": "react-native-ota-template",
+  "version": "0.0.1",
+  "description": "React Native OTA Template",
+  "repository": "git@github.com:obe711/react-native-ota-template.git",
+  "author": "Obediah Klopfenstein <obe711@gmail.com>",
+  "license": "MIT"
+}

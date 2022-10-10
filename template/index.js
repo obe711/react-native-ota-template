@@ -6,8 +6,7 @@ import { AppRegistry } from 'react-native';
 import { NativeRouter } from 'react-router-native';
 import App from './src/App';
 import config from './config.json';
-
-const APP_NAME = 'ProjectName';
+import { name as appName } from './app.json';
 
 const Index = () => {
   return (
@@ -20,7 +19,7 @@ const Index = () => {
 
 
 async function startApp() {
-  AppRegistry.registerComponent(APP_NAME, () => Index);
+  AppRegistry.registerComponent(appName, () => Index);
 }
 
 
